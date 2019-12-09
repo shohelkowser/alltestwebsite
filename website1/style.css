@@ -1,0 +1,118 @@
+body{
+        font-family: "Times New Roman", Times, serif;
+        }
+header{
+        margin: 0 auto;
+        width: 850px;
+        height: 564px;
+        background-image: url(img/PM-Holiday-Image1.jpg);
+        background-repeat: no-repeat;
+        background-size: 850px 564px;
+        border:solid 1px black;
+}
+header>section{
+        height:564px;
+        width: 100%;
+        display: inline-block;
+}
+header>section>div{
+        width: 500px;
+        height: 200px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+}
+header>section>div>img{ 
+        float: left;
+
+}
+header>section>div>h2{
+        float: left;
+        padding: 33px;
+        color:#BF0F36;
+}
+header>section>h1{
+        margin: 0px auto;
+        color:red;
+        width: 500px;
+        font-size: 3em;
+        background: #fff;
+        border: 20px solid #fff;
+        border-radius: 20px;
+        opacity: 70%;
+        text-align: center;
+}
+main{
+        margin: 0 auto;
+        width: 850px;
+        border:solid 1px green;
+}
+
+article{
+        width: 800px;
+        border:solid 4px rgb(34, 86, 207);
+        margin: 0 auto;
+        overflow: hidden;
+}
+article>section.article{
+        width: 49%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        border:solid 4px rgb(10, 238, 207);
+        text-align: center;
+}
+.smalldescription>p{
+        width: 500px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 1.5em
+}
+article>section.article>img{
+        width: 100%;
+        background-color: #BF0F36;
+} 
+article>section.article>h2, 
+article>section.article>p{
+        background-color: #BF0F36;
+        margin: 0;
+        padding:5px ;
+        display: block;
+} 
+article>section.article>a{
+        width: 150px;
+        background-color: white;
+        margin-top: 10px;
+        padding: 5px;
+        border: solid 5px #BF0F36;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #BF0F36;
+        display: inline-block;
+        font-size: 1.5em;
+}
+aside{
+        background: #BF0F36;
+        width: 100%;
+        text-align: center;
+        display: block;
+        overflow: hidden;
+        border:solid 1px black;
+}
+aside>ul{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin: 0px auto;
+}
+aside>ul>li{
+        list-style: none;
+        display: inline;
+        text-align: center;
+}
+footer{
+        width: 100%;
+        display: block;
+        text-align: center;
+        border:solid 1px black;
+}
